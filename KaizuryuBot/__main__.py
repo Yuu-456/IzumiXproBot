@@ -82,14 +82,19 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*ʜᴇʏ* {},
-
-*๏ ɪ ᴀᴍ* {} !
-➻ ᴛʜᴇ ᴍᴏsᴛ ᴩᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ᴀᴡᴇsᴏᴍᴇ ᴀɴᴅ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.
-
-──────────────────
-*๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ /help ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs.*
+Konichiwa {}.
+*ʙᴏᴋᴜ ᴡᴀ ʜᴏʀɪ-ᴋʏᴏᴜᴋᴏ ɴᴏ ᴋᴀʀᴇꜱʜɪ ᴅᴇꜱᴜ
+━━━━━━━━━━━━━━━━━━━━━
+ʙᴏᴋᴜ ɴᴏ Iȥυɱι Mιყαɱυɾα ,
+ᴀɴɪᴍᴇ-ᴛʜᴇᴍᴇ ʙᴀꜱᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴀɴᴅ ʙᴏʏꜰʀɪᴇɴᴅ ᴏꜰ ʜᴏʀɪ ᴋʏᴏᴜᴋᴏ ✨
+┏━━━━━━━━━━━━━━━━━━━━
+× *ᴀᴡᴀᴋᴇ ꜱɪɴᴄᴇ:* {}
+× {} *ᴛᴇᴀᴍᴍᴀᴛᴇꜱ. ᴀᴄʀᴏꜱꜱ* {} *ɢʀᴏᴜᴘ ᴄʜᴀᴛꜱ.*
+┗━━━━━━━━━━━━━━━━━━━━ 
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ :  [V๏ɪ፝֟𝔡 ɴᴇᴛᴡᴏʀᴋ]
+*ᴏᴘᴇɴ /ʜᴇʟᴘ ᴛᴏ ᴋɴᴏᴡ ᴡʜᴀᴛ ɪ ᴀᴍ ᴄᴀᴘᴀʙʟᴇ ᴏꜰ !××[.]
 """
+
 
 buttons = [
     [
@@ -99,12 +104,14 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="Aʙᴏᴜᴛ", callback_data="kaizuryu_"),
-        InlineKeyboardButton(text="Sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="Aʙᴏᴜᴛ", url=f"https://t.me/miyamuraxupdates"),
+        InlineKeyboardButton(text="[ꜱᴜᴘᴘᴏʀᴛ]", url=f"https://t.me/miyamuraxsupport"),
     ],
     [
-        InlineKeyboardButton(text="Oᴡɴᴇʀ", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="Sᴏᴜʀᴄᴇ", callback_data="source_"),
+        InlineKeyboardButton(text="[V๏ɪ፝֟𝔡 ɴᴇᴛᴡᴏʀᴋ]", url=f"tg://user?id={OWNER_ID}")
+    ],
+    [
+        InlineKeyboardButton(text="HELP & COMMANDS", callback_data="help_back")
     ],
 ]
 
@@ -120,7 +127,7 @@ HELP_STRINGS = f"""
 DONATE_STRING = """ʜᴇʏ,
   ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ.
 
-ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [ᴅᴇᴠᴇʟᴏᴩᴇʀ](https://t.me/Xelcius) ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ [sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ](https://t.me/{SUPPORT_CHAT}) ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
+ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [Owner](https://t.me/IzumiTachibana_08) ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ [sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ](https://t.me/{SUPPORT_CHAT}) ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
