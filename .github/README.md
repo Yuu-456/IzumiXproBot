@@ -14,7 +14,9 @@
 
 ### Deploy
  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/yuu-456/izumixprobot)
-    ─「 ᴄʀᴇᴅɪᴛs 」─
+    <br>
+<h3>
+─「 ᴄʀᴇᴅɪᴛs 」─
 </h3>
 
 - <b>[Xelcius](https://github.com/RimuruDemonlord)  ➻  [sᴏᴍᴇᴛʜɪɴɢ](https://github.com/RimuruDemonlord/KaizuryuBot) </b>
